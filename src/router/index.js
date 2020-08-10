@@ -46,15 +46,15 @@ Plus de détails ici : https://router.vuejs.org/fr/guide/essentials/passing-prop
 /*
 Nous créons une instance de Vue routeur sans oublier de lui passer le tableau des routes.
 Nous pouvons lui définir d’autres attributs comme le mode URL choisi :
-Le mode history garde l’historique dans le navigateur.
 Le mode par défaut est le mode hash. Il simule une URL complète pour chaque vue afin de ne pas recharger la page.
+Le mode history garde l’historique dans le navigateur.
 En savoir plus:
 https://router.vuejs.org/fr/guide/#javascript
 https://router.vuejs.org/fr/guide/essentials/history-mode.html#mode-historique-de-html5
 
 */
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes
 })
