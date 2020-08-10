@@ -5,7 +5,5 @@ module.exports = {
       patterns: ['./src/assets/styles/custom.scss']
     }
   },
-  publicPath: process.env.NODE_ENV === 'production'
-    ? './'
-    : '/'
+  publicPath: ''
 }
